@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game Download Site</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      } 
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #f5f5f5;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  section {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  h1,
+  h2 {
+    margin-top: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+  }
+
+  p {
+    text-align: justify;
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+  }
+
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+  }
+
+  a:hover {
+    background-color: #555;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid #f5f5f5;
+  }
+
+  @media (max-width: 768px) {
+    section {
+      width: 100%;
+    }
+  }
+</style>
+  </head>
+  <body>
+    <header>
+      <h1>Game Download Site</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Assassin's Creed Valhalla</h2>
+        <img src="game1.png" alt="Assassin's Creed Valhalla">
+        <p>
+          Assassin’s Creed Valhalla — компьютерная игра в жанре
+          action/RPG, разработанная студией Ubisoft Montreal и
+          изданная компанией Ubisoft. Является двенадцатой
+          игрой в серии игр Assassin’s Creed.
+        </p>
+        <button onclick="window.location.href='game1_info.html'" download>Learn More</button>
+      </section>
+        <section>
+        <h2>Contraband Police</h2>
+        <img src="game2.png" alt="Contraband Police">
+        <p>
+          1981 You, as a young graduate of an officer school, are sent to a border outpost in the mountainous region of Karikatka.
+        </p>
+        <button onclick="window.location.href='game2_info.html'" download>Learn More</button>
+        </section>
+        <section>
+        <h2>Assassin’s Creed II</h2>
+        <img src="game3.png" alt="Assassin’s Creed II">
+        <p>
+          Assassin's Creed 2 — это история семьи, заговора и мести в древней жестокой Италии эпохи Возрождения.
+        </p>
+        <button onclick="window.location.href='game3_info.html'" download>Learn More</button>
+        </section>
+        <section>
+        <h2>Red Dead Redemption 2</h2>
+        <img src="game4.png" alt="Red Dead Redemption 2">
+        <p>
+          Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, RDR2 is the epic tale of outlaw Arthur Morgan
+        </p>
+        <button onclick="window.location.href='game4_info.html'" download>Learn More</button>
+        </section>
+        <section>
+        <h2>ГТА 5 (GTA 5)</h2>
+        <img src="game5.png" alt="ГТА 5 (GTA 5)">
+        <p>
+          Grand Theft Auto V — компьютерная игра в жанре action-adventure с открытым миром, разработанная компанией Rockstar North и изданная компанией Rockstar Games.
+        </p>
+        <button onclick="window.location.href='game5_info.html'" download>Learn More</button>
+        </section>
+        <!-- Add more sections for additional games -->
+        </main>
+        <footer>
+        © 2023 Maksoto. INC
+        </footer>
+        
+          </body>
+        </html>
